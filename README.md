@@ -46,7 +46,7 @@ This project started as a simple terminal-based banking application using JSON f
 Bank-Management-System/
 │
 ├── app.py              # Streamlit Web Application
-├── bank.py             # Terminal-Based Banking System
+├── bank_raw.py         # Terminal-Based Banking System
 ├── db.sql              # MySQL Database Setup File
 ├── data.json           # JSON Database for Raw Version
 ├── .env                # Environment Variables

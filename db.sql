@@ -1,0 +1,23 @@
+CREATE DATABASE IF NOT EXISTS bank_system;
+
+USE bank_system;
+
+CREATE TABLE IF NOT EXISTS accounts (
+
+    id INT AUTO_INCREMENT PRIMARY KEY,
+
+    name VARCHAR(100) NOT NULL,
+
+    age INT NOT NULL,
+
+    email VARCHAR(100) UNIQUE NOT NULL,
+
+    pin VARCHAR(10) NOT NULL,
+
+    account_no VARCHAR(20) UNIQUE NOT NULL,
+
+    balance INT DEFAULT 0
+
+);
+
+SELECT * FROM accounts;
